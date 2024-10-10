@@ -1,0 +1,68 @@
+Euskera:
+Ikastetxeko Kurtsoen Kudeaketa Sistema
+Sistema hau ikastetxeko kurtsoen eta ikasleen kudeaketa errazteko diseinatuta dago. Erabiltzaileak bi rol nagusitan banatzen dira: ikaslea eta admin, bakoitzak bere funtzionalitate espezifikoekin.
+
+Ezaugarriak
+Erregistroa eta Login:
+
+Erregistroa: Erabiltzaile bat izena eman dezake ikasleak taulan erregistratuta dagoen email batekin.
+Login: Erabiltzailearen rolaren arabera, ikasle edo administratzaile gisa saioa hasi.
+Ikaslearen Orrialdea:
+
+Zure datuak ikusi (izena, abizena, emaila, adina).
+Eskaintzen diren kurtsoetan izena eman.
+Administratzailearen Orrialdea:
+
+Kurtso berriak sortu.
+Ikasleak taulako ikasleak ikusi, editatu edo ezabatu.
+Ikasle berriak gehitu.
+Datu Basearen Egitura
+usuarios: Erabiltzaileak gordetzen dira, rol (ikaslea/admin) eta pasahitzarekin.
+ikasleak: Ikasleen datu pertsonalak gordetzen dira.
+cursos: Kurtsoen izenak eta deskribapenak gordetzen dira.
+
+Español:
+Sistema de Gestión de Cursos del Instituto
+Este sistema está diseñado para facilitar la gestión de los cursos y los estudiantes en un instituto. Los usuarios se dividen en dos roles principales: estudiante y administrador, cada uno con funcionalidades específicas.
+
+Características
+Registro y Login:
+
+Registro: Los usuarios pueden registrarse si su email está registrado en la tabla ikasleak.
+Login: Dependiendo del rol del usuario, iniciarán sesión como estudiante o administrador.
+Página del Estudiante:
+
+Visualiza tus datos personales (nombre, apellido, email, edad).
+Inscribirse en los cursos ofrecidos.
+Página del Administrador:
+
+Crear nuevos cursos.
+Ver, editar o eliminar estudiantes de la tabla ikasleak.
+Añadir nuevos estudiantes.
+Estructura de la Base de Datos
+usuarios: Almacena los usuarios con sus roles (estudiante/administrador) y contraseñas.
+ikasleak: Almacena los datos personales de los estudiantes.
+cursos: Almacena los nombres y descripciones de los cursos.
+
+English:
+School Course Management System
+This system is designed to facilitate the management of courses and students in a school. Users are divided into two main roles: student and admin, each with specific functionalities.
+
+Features
+Registration and Login:
+
+Registration: Users can register if their email is listed in the ikasleak table.
+Login: Depending on the user's role, they will log in as a student or an admin.
+Student Page:
+
+View your personal data (name, surname, email, age).
+Enroll in the available courses.
+Admin Page:
+
+Create new courses.
+View, edit, or delete students from the ikasleak table.
+Add new students.
+Database Structure
+usuarios: Stores users with their roles (student/admin) and passwords.
+ikasleak: Stores the personal data of students.
+cursos: Stores the names and descriptions of courses.
